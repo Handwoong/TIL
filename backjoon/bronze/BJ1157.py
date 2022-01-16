@@ -1,9 +1,7 @@
 # 문제 : 단어 공부
 
-s = input()
-s = s.upper()
-x = set(s)
-x = list(x)
+s = input().upper()
+x = list(set(s))
 
 result = []
 for i in x:
